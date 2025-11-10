@@ -1,0 +1,113 @@
+# -------------------------
+# Global ignores
+# -------------------------
+.DS_Store
+Thumbs.db
+*.log
+*.pid
+*.seed
+*.pid.lock
+*.gz
+*.zip
+*.tar
+*.tgz
+*.bak
+*.tmp
+*.orig
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.iml
+
+# -------------------------
+# Environment variables
+# -------------------------
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# -------------------------
+# Node.js / Backend
+# -------------------------
+backend/node_modules/
+backend/dist/
+backend/build/
+backend/.env
+backend/.env.local
+backend/.DS_Store
+backend/logs/
+backend/tmp/
+backend/uploads/
+backend/.cache/
+backend/coverage/
+backend/.nyc_output/
+backend/package-lock.json
+backend/yarn.lock
+backend/pnpm-lock.yaml
+
+# Ignore local db + certificates
+backend/mongodb/
+backend/certs/
+
+# -------------------------
+# React / Frontend
+# -------------------------
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.DS_Store
+frontend/.vite/
+frontend/.cache/
+frontend/.eslintcache
+frontend/.turbo/
+frontend/.next/
+frontend/coverage/
+frontend/package-lock.json
+frontend/yarn.lock
+frontend/pnpm-lock.yaml
+
+# -------------------------
+# Logs
+# -------------------------
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# -------------------------
+# OS Specific
+# -------------------------
+# macOS
+.AppleDouble
+.LSOverride
+
+# Windows
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# -------------------------
+# Docker / Dev tools
+# -------------------------
+docker-data/
+docker-compose.override.yml
+docker-compose.dev.yml
+*.pid
+*.seed
+*.pid.lock
+
+# -------------------------
+# Vercel / Render / Deployment
+# -------------------------
+.vercel/
+.render/
+.now/
