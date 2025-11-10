@@ -1,4 +1,5 @@
 # AI Chat Survey for C360 View
+A small full-stack app that collects user feedback via an AI-powered chat interface and links responses to C360 customer context.
 
 ## Prerequisites
 - Node 18+
