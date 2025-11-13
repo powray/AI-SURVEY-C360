@@ -1,6 +1,11 @@
 # AI Chat Survey for C360 View
 A small full-stack app that collects user feedback via an AI-powered chat interface and links responses to C360 customer context.
 
+## Key tech
+- OpenAI API (GPT-4/5) for prompt orchestration
+- spaCy, Transformers for text understanding
+- VADER, TextBlob for Sentiment Analysis
+
 ## Prerequisites
 - Node 18+
 - MongoDB (Atlas or local)
